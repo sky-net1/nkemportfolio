@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-container">
+      <div class="logo">
+        <div class="logo-icon">N</div>
+        <div class="logo-text">
+          <h2>SkyNet</h2>
+          <p>Strategic Creative Designer</p>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a href="https://docs.google.com/document/d/1VGyCzZsypQi27eXesrP7PUTvYHE1lmR3/edit?usp=sharing&ouid=104541612871099480327&rtpof=true&sd=true" class="btn-start">View Resume</a>
+    </div>
+  </header>
+
+    <section id="hero" class="hero-section" aria-label="Portfolio introduction">
+        <div class="container">
+         <h1 class="hero-title">Portfolio Showcase</h1>
+         <p class="hero-lead">
+           Explore our collection of transformative design projects that drive measurable business results. Each project represents a strategic partnership focused on creative solutions with tangible impact.
+         </p>
+         <!-- <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">See projects</a>
+          <a class="btn btn-secondary" href="#contact">Get in touch</a>
+         </div> -->
+        </div>
+    </section>
+
+    <!-- // ...existing code... -->
+    <section id="stats" class="stats-section" aria-label="Portfolio summary statistics">
+     <div class="container">
+      <div class="stats-grid" role="list">
+       <div class="stat-card" role="listitem" aria-labelledby="stat1">
+         <div class="stat-icon" aria-hidden="true">
+          <!-- simple icon placeholder -->
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="3" fill="#E9F0F2"/><path d="M8 12h8" stroke="#21414F" stroke-width="1.5" stroke-linecap="round"/></svg>
+         </div>
+         <div id="stat1" class="stat-value">12</div>
+         <div class="stat-label">Total Projects</div>
+       </div>
+
+      <div class="stat-card" role="listitem" aria-labelledby="stat2">
+        <div class="stat-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="3" fill="#E9F0F2"/><path d="M8 12h8" stroke="#21414F" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div id="stat2" class="stat-value">12</div>
+        <div class="stat-label">Showing</div>
+      </div>
+
+      <div class="stat-card" role="listitem" aria-labelledby="stat3">
+        <div class="stat-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="3" fill="#E9F0F2"/><path d="M8 12h8" stroke="#21414F" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div id="stat3" class="stat-value">4</div>
+        <div class="stat-label">Categories</div>
+      </div>
+
+      <div class="stat-card" role="listitem" aria-labelledby="stat4">
+        <div class="stat-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="3" fill="#E9F0F2"/><path d="M8 12h8" stroke="#21414F" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div id="stat4" class="stat-value">12</div>
+        <div class="stat-label">Industries</div>
+       </div>
+      </div>
+    </div>
+    </section>
+<!-- // ...existing code... -->
+
+<section id="filters" class="filters-section" aria-label="Project search and filters">
+  <div class="container">
+    <div class="filter-bar" role="search" aria-label="Search and filter projects">
+      <label for="project-search" class="visually-hidden">Search projects</label>
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="11" cy="11" r="6" stroke="#A8B3B7" stroke-width="1.5"/>
+            <path d="M21 21l-4.35-4.35" stroke="#A8B3B7" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <input id="project-search" class="search-input" type="search"
+               placeholder="Search projects by name, description, or technology..." />
+      </div>
+
+      <div class="filter-controls" aria-hidden="false">
+        <label for="category-select" class="visually-hidden">Category</label>
+        <select id="category-select" class="select">
+          <option value="all">All</option>
+          <option value="branding">Branding</option>
+          <option value="ux">UX / UI</option>
+          <option value="product">Product</option>
+        </select>
+
+        <label for="industry-select" class="visually-hidden">Industry</label>
+        <select id="industry-select" class="select">
+          <option value="all">All</option>
+          <option value="finance">Finance</option>
+          <option value="health">Health</option>
+          <option value="retail">Retail</option>
+        </select>
+      </div>
+    </div>
+    </div>
+    </section>
+<!-- // ...existing code... -->
+    
+<!-- // ...existing code... -->
+<section id="projects" class="portfolio" aria-label="Portfolio projects">
+  <div class="portfolio-container container">
+    <div class="section-header">
+      <div class="section-tag">Featured Work</div>
+      <h2 class="section-headline">Selected Projects</h2>
+      <p class="section-description">A curated selection of projects that highlight strategy, design, and measurable outcomes. Click any card to view the full case study.</p>
+    </div>
+
+    <div class="projects-grid" role="list">
+      <article class="project-card" role="listitem" data-category="branding" data-industry="retail">
+        <div class="project-image-placeholder"><img src="images/babel.jpg" alt="E-Commerce Revolution mockup"></div>
+        <div class="project-content">
+          <span class="category-badge">Web Design</span>
+          <h3>The BabelEdit (E-commerce)</h3>
+          <p>Complete design of a major retail platform that transformed user experience and drove unprecedented conversion rates.</p>
+
+          <div class="project-tags">
+            <span>UI/UX</span>
+            <span>Responsive Design</span>
+            <span>Conversion Optimization</span>
+            <span class="more-tags">+2 more</span>
+          </div>
+
+          <div class="project-actions" style="display:flex; justify-content:space-between; align-items:center; gap:1rem;">
+            <button class="show-more" aria-expanded="false" aria-controls="desc-1">Show More ▾</button>
+            <a class="case-study-link btn-view" href="thebabeledit.html">View Details →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" role="listitem" data-category="product" data-industry="music">
+        <div class="project-image-placeholder"><img src="images/ulist.jpg" alt="Music Streaming App mockup"></div>
+        <div class="project-content">
+          <span class="category-badge">Mobile App</span>
+          <h3>U-List - Music Streaming Platform</h3>
+          <p>Intuitive music streaming application that streamlines playlist management and enables seamless sharing between Spotify and personal collections.</p>
+
+          <div class="project-tags">
+            <span>Mobile Design</span>
+            <span>Spotify Integration</span>
+            <span>Streaming UI/UX</span>
+            <span class="more-tags">+2 more</span>
+          </div>
+
+          <div class="project-actions" style="display:flex; justify-content:space-between; align-items:center; gap:1rem;">
+            <button class="show-more" aria-expanded="false" aria-controls="desc-2">Show More ▾</button>
+            <a class="case-study-link btn-view" href="u-list-case-study.html">View Details →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" role="listitem" data-category="product" data-industry="education">
+        <div class="project-image-placeholder"><img src="images/hef.jpg" alt="HEINENKEN Educational Foundation mockup"></div>
+        <div class="project-content">
+          <span class="category-badge">NGO Platform</span>
+          <h3>Heineken Educational Foundation</h3>
+          <p>Comprehensive digital platform supporting students through scholarship distribution, food assistance programs, palliative sharing, and student loan management system.</p>
+
+          <div class="project-tags">
+            <span>Educational Impact</span>
+            <span>Community Support</span>
+            <span>Student Services</span>
+            <span class="more-tags">+2 more</span>
+          </div>
+
+          <div class="project-actions" style="display:flex; justify-content:space-between; align-items:center; gap:1rem;">
+            <button class="show-more" aria-expanded="false" aria-controls="desc-3">Show More ▾</button>
+            <a class="case-study-link btn-view" href="hef-case-study.html">View Details →</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- <div style="text-align:center; margin-top:2.5rem;">
+      <a class="btn-view-all" href="portfolio-all.html">View All Projects</a>
+    </div> -->
+  </div>
+</section>
+<!-- // ...existing code... -->
+
+<!-- Footer -->
+   <footer class="site-footer" role="contentinfo" aria-label="Site footer">
+    <div class="footer-inner">
+      <div class="footer-column footer-about">
+        <div class="footer-brand">
+          <div class="logo-icon">N</div>
+          <h3>SkyNet</h3>
+        </div>
+        <p class="footer-desc">
+          Transforming businesses through strategic design and creative excellence. Your trusted partner for digital innovation.
+        </p>
+
+        <div class="social">
+          <a href="#" class="social-link" aria-label="Link"> 
+            <!-- link icon -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Hash"> 
+            <!-- hash icon -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Help"> 
+            <!-- circle icon -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer-column footer-links" aria-label="Company">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-column footer-links" aria-label="Resources">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Design Process</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-column footer-contact" aria-label="Get in touch">
+        <h4>Get In Touch</h4>
+        <ul class="contact-list">
+          <li><a href="mailto:hello@designcraft.com">skynett47@gmail.com</a></li>
+          <li><a href="tel:+1234567890">+234 7067534155</a></li>
+          <li>FCT Abuja</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 SkyNet. All rights reserved.</p>
+      <div class="policy-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+<!-- ...existing code... -->
+</body>
+</html>
